@@ -7,4 +7,6 @@ scikit-learn
 tqdm
 shap
 imblearn
+catboost
+dill
 -e .
