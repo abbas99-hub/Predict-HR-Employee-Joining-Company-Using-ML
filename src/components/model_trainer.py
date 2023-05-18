@@ -89,7 +89,7 @@ class ModelTrainer:
 
             predicted=best_model.predict(X_test)
             auc_score=roc_auc_score(y_test,predicted)
-            return auc_score
+            return predicted
 
         except Exception as e:
             raise Custom_Exception(e,sys)

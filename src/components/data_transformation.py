@@ -6,7 +6,6 @@ from src.logger import logging
 from src.utils import save_object
 import sys
 from dataclasses import dataclass
-
 from sklearn.compose import ColumnTransformer
 from sklearn.impute import SimpleImputer
 from sklearn.preprocessing import LabelEncoder,StandardScaler,OneHotEncoder,MinMaxScaler

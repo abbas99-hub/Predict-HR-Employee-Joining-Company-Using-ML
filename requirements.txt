@@ -9,4 +9,5 @@ shap
 imblearn
 catboost
 dill
+streamlit
 -e .
